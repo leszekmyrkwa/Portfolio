@@ -1,0 +1,18 @@
+#Skills {
+    width: 90%;
+    position: absolute;
+    top: 80%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+     @media only screen and (max-width: 1600px) {
+         width: 100%;
+     }
+
+    .skills-top {
+        margin: 0 auto;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}

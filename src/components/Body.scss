@@ -1,0 +1,51 @@
+#Body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    img {
+        width: 100vw;
+        height: 100vh;
+        object-fit: cover;
+        opacity: .2;
+    }
+
+    .body-title {
+        position: absolute;
+        top: 35%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        span {
+            color: #ffbd4a;
+        }
+
+        h1 {
+            font-size: 50px;
+            color: #eee;
+        }
+
+        p {
+            margin-top: 20px;
+            font-size: 22px;
+            color: #eee;
+        }
+    }
+
+    @media only screen and (max-width: 1100px) {
+        .body-title {
+            width: 90%;
+
+            h1 {
+                font-size: 35px;
+                margin-top: 15px;
+            }
+
+            p {
+                font-size: 16px;
+                width: 100%;
+            }
+        }
+    }
+}

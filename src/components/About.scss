@@ -1,0 +1,24 @@
+#About {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+    max-width: 1200px;
+    padding: 30px 20px;
+
+    h2 {
+        color: #eee;
+        margin-bottom: 20px;
+    }
+
+    p {
+        color: #eee;
+        margin-bottom: 10px;
+    }
+
+    span {
+        color: #ffbd4a;
+    }
+}

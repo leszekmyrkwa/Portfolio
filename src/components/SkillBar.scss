@@ -1,0 +1,37 @@
+.skill-bar {
+    color: #ffbd4a;
+    width: 400px;
+    margin: 10px 20px;
+
+    .skill-bar-inner {
+        height: 20px;
+        margin-top: 10px;
+        background: #001c36;
+
+        div {
+            height: 20px;
+            background: #ffbd4a;
+        }
+    }
+
+    @media only screen and (max-width: 900px) {
+        width: 300px;
+    }
+
+     @media only screen and (max-width: 700px) {
+         width: 150px;
+     }
+
+     @media only screen and (max-width: 500px) {
+         max-width: 100px;
+         width: 100%;
+
+         .skill-bar-inner {
+             height: 10px;
+
+             div {
+                 height: 10px;
+             }
+         }
+     }
+}
