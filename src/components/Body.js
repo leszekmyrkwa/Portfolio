@@ -2,7 +2,6 @@ import React from "react";
 import './Body.scss';
 import HeroImg from '../image/aleksey-sokolenko-akgUF2mKR7E-unsplash.jpg';
 import Skills from "./Skills";
-import Projects from "./Projects";
 import Contact from "./Contact";
 import About from "./About";
 import Websites from "./Websites";
