@@ -1,4 +1,4 @@
-#Projects {
+#Websites {
     background: #eee;
     padding: 80px 30px;
     display: flex;
@@ -10,14 +10,15 @@
 
     h2 {
         position: absolute;
-        top: 5%;
+        top: 3%;
         left: 50%;
         transform: translate(-50%, -50%);
         color: #001c36;
         margin-top: 20px;
+        margin-bottom: 40px;
     }
 
-    .project {
+    .website {
         width: 500px;
         height: 300px;
         background: #001c36;
@@ -29,17 +30,21 @@
         position: relative;
         margin: 20px 10px;
         box-shadow: 1px 5px 10px 2px rgba(1,1,1, .6);
+        border-radius: 10px;
+        cursor: pointer;
 
 
         &-name {
             position: absolute;
             top: 50%;
             left: 50%;
+            width: 60%;
             transform: translate(-50%,-50%);
             z-index: 9999;
-            background: #eee;
-            border: 2px solid #ffbd4a;
+            background: #fff;
+            border-bottom: 4px solid #001c36;
             padding: 5px 10px;
+            border-radius: 10px;
 
             p {
                 font-size: 22px;
@@ -51,10 +56,11 @@
             color: #001c36;
             background-color: #ffbd4a;
             padding: 10px 15px;
+            border-radius: 10px;
         }
 
         img {
-            width: 450px;
+            width: 420px;
             height: 350px;
             object-fit: contain;
             z-index: 999;

@@ -1,6 +1,5 @@
 import React from "react";
 import './Header.scss';
-import Logo from '../image/logo.png';
 
 export default class Header extends React.Component {
 
@@ -8,7 +7,6 @@ export default class Header extends React.Component {
         return(
             <div id="Header">
                 <div className="header-left">
-                    <img src={ Logo } alt="logo"></img>
                 </div>
                 <div className="header-buttons">
                     <a href="#About">About me</a>
