@@ -36,13 +36,13 @@ export default class Websites extends React.Component {
         return(
             this.websites.map((website, i) => {
                 return(
-                    <a href={website.url}>
+                    <a target='_blank' rel="noreferrer" href={website.url}>
                         <div className="website" key={i}>
                             <div className="website-name">
                                 <p>{website.name}</p>
                             </div>
                             <img src={website.img} alt={website.name}></img>
-                            <a href={website.url}>Click to check</a>
+                            <p className="website-click">Click to check</p>
                         </div>
                     </a>
                 );
