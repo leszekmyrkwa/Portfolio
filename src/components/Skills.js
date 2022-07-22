@@ -4,7 +4,8 @@ import './Skills.scss';
 
 export default class Skills extends React.Component {
 
-    skills = [['Javascript', 90],['HTML', 90],['CSS', 90],['React', 50],['Angular', 50],['Redux', 50],['PHP', 70],['WordPress', 80]];
+    skills = [['Javascript', 90], ['HTML', 85], ['CSS', 80], ['React', 65], 
+    ['Angular', 60], ['Git', 60], ['WordPress', 75], ['PHP', 50]];
 
     renderSkillBars() {
         return(

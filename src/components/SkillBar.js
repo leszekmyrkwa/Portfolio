@@ -5,10 +5,14 @@ export default class SkillBar extends React.Component {
 
     render() {
         return (
-            <div className="skill-bar">
+            <div className="skill-container">
                 <h3>{this.props.name}</h3>
-                <div className="skill-bar-inner">
-                    <div style={{width: `${this.props.width}%`}}></div>
+                <div className={`c100 p${this.props.width}`}>
+                    <span>{this.props.width}%</span>
+                    <div className="slice">
+                        <div className="bar"></div>
+                        <div className="fill"></div>
+                    </div>
                 </div>
             </div>
         );
