@@ -14,7 +14,7 @@ export default class Body extends React.Component {
                 <div className="hero-section">
                     <img src={ HeroImg } alt="Hero img"></img>
                     <div className="body-title">
-                        <h1>Hi, I'm Leszek a passionate <span>Front End Developer</span></h1>
+                        <h1>Hi, I'm Leszek a passionate <br></br><span>Front End Developer</span></h1>
                         <p>I started my programming journey in 2020, I'm motivated and eager to learn new technologies and grow as a developer.
                         </p>
                     </div>
