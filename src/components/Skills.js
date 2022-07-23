@@ -20,6 +20,7 @@ export default class Skills extends React.Component {
     render() {
         return(
             <div id="Skills">
+                <h3>How confident I feel using:</h3>
                 <div className="skills-top">
                     {this.renderSkillBars()}
                 </div>
